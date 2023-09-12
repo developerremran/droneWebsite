@@ -7,7 +7,7 @@ const Header = () => {
                 <div className='text-white'>
                     <h2 className='text-5xl italic'>Logo</h2>
                 </div>
-                <div>
+                <div className='md:block hidden'>
                     <ul className='flex gap-10 text-xl font-semibold text-white'>
                         <li>Home</li>
                         <li>Our Works</li>
