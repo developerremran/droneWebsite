@@ -9,7 +9,7 @@ const Expertis = () => {
              <div className="mt-24">
       <div className="md:flex  items-center h-full">
         <div className="bg-gray-950 md:w-1/2 py-20 ">
-          <div className="px-16 text-center">
+          <div className="px-16">
             <h5 className="text-cyan-600 text-xl font-semibold uppercase">
               Our expertise
             </h5>

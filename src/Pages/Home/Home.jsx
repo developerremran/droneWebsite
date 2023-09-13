@@ -5,6 +5,7 @@ import EquepmentsSection from '../../Components/EquepmentsSection/EquepmentsSect
 import Expertis from '../../Components/Expertis/Expertis';
 
 import RecentWorks from '../../Components/RecentWorks/RecentWorks';
+import ReviewSection from '../../Components/Review/ReviewSection';
 
 const Home = () => {
     return (
@@ -14,11 +15,15 @@ const Home = () => {
             <div className='my-10'>
                 <RecentWorks></RecentWorks>
             </div>
-            <Expertis></Expertis>
+
 
             <div className='mt-[250px]'>
-            <EquepmentsSection></EquepmentsSection>
+                <EquepmentsSection></EquepmentsSection>
             </div>
+
+            <Expertis></Expertis>
+            <ReviewSection></ReviewSection>
+
             <div className='mt-[300px]'>
 
             </div>
